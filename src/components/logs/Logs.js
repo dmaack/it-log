@@ -28,7 +28,8 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
 }
 
 Logs.propTypes = {
-    log: PropTypes.object.isRequired
+    log: PropTypes.object.isRequired,
+    getLogs: PropTypes.func.isRequired
 }
 
 // we are mapping anything in our app level state to a local component props 
