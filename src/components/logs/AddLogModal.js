@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import TechSelectOptions from '../techs/TechSelectOptions';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { addLog } from '../../actions/logActions';
@@ -48,6 +49,7 @@ const AddLogModal = ({ addLog }) => {
                     <div className='input-field'>
                         <select name='tech' value={tech} className='browser-default' onChange={e => setTech(e.target.value)}>
                             <option value='' disaled>Select Technician</option>
+                            <TechSelectOptions />
                             <option value='Dominique Maack'>Dominique Maack</option>
                             <option value='Tom Goth'>Tom Goth</option>
                             <option value='John Doe'>John Doe</option>
