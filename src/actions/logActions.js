@@ -1,4 +1,13 @@
-import { GET_LOGS, SET_LOADING, LOGS_ERROR, ADD_LOG, DELETE_LOG, SET_CURRENT, CLEAR_CURRENT, UPDATE_LOG, SEARCH_LOGS } from './types';
+import { 
+    GET_LOGS, 
+    SET_LOADING, 
+    LOGS_ERROR, 
+    ADD_LOG, 
+    DELETE_LOG, 
+    SET_CURRENT, 
+    CLEAR_CURRENT, 
+    UPDATE_LOG, 
+    SEARCH_LOGS } from './types';
 
 
 //old way of writing 
